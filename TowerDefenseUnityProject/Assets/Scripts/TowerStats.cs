@@ -4,7 +4,6 @@ using System.Collections;
 [System.Serializable]
 public class MyLevelStats
 {
-	public Sprite newSprite;
    public GameObject graphic;
    public float myRange;
    public int myHealth = 1;
@@ -19,14 +18,12 @@ public class TowerStats : MonoBehaviour {
     private float timer = 0;
 
 	public GameObject myBullet;
-
-	private SpriteRenderer renderer;
+	
 	private int layerMask;
 
 	void Start()
 	{
 		layerMask = LayerMask.GetMask("Enemy");
-		renderer = GetComponent<SpriteRenderer>();
 	}
 
     void OnEnable()
@@ -36,7 +33,7 @@ public class TowerStats : MonoBehaviour {
 	void OnDrawGizmos()
 	{
 		Gizmos.color = Color.black;
-	//	Gizmos.DrawWireSphere(transform.position, currentLevel.myRange);
+		Gizmos.DrawWireSphere(transform.position, currentLevel.myRange);
 	}
 
 	void ShootTheEnemy(Vector2 shootHere)
@@ -80,7 +77,6 @@ public class TowerStats : MonoBehaviour {
         {
             currentLevel = value;
             int currentLevelIndex = levels.IndexOf(currentLevel);
-			//renderer.sprite = currentLevel.newSprite;
             GameObject levelVisualization = levels[currentLevelIndex].graphic;
             for (int counter = 0; counter < levels.Count; counter++)
             {
