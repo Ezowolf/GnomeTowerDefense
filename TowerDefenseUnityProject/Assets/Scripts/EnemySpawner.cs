@@ -28,7 +28,6 @@ public class EnemySpawner : WaveCheck {
 				x = Random.Range (5.0f, 10.0f);
 				y = Random.Range (1.0f, 5.0f);
 				Instantiate (enemy, new Vector2 (x,y), Quaternion.identity);
-
 			}
 		}
 	}
