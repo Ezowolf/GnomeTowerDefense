@@ -15,6 +15,8 @@ public class EnemyHealth : MonoBehaviour {
 
 	void EnemyDeath()
 	{
+		GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold += 10;
+		GameObject.Find ("ScoreCounter").GetComponent<ScoreCounter> ().score += 100;
 		Destroy(this.gameObject);
 	}
 }

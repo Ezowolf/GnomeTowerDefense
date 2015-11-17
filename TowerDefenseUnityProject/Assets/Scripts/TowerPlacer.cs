@@ -13,10 +13,14 @@ public class TowerPlacer : MonoBehaviour {
 
     void OnMouseUp()
     {
-        if (canIPlaceTower() == true)
-        {
-            theTower = (GameObject)
-            Instantiate(towerMPrefab, this.transform.position, Quaternion.identity);
+        if (canIPlaceTower () == true) 
+		{
+			if (GameObject.Find ("GoldCounter").GetComponent<GoldCounter> ().Gold >= 100)
+			{
+				GameObject.Find ("GoldCounter").GetComponent<GoldCounter> ().Gold -= 100;
+				theTower = (GameObject)
+           		Instantiate (towerMPrefab, this.transform.position, Quaternion.identity);
+			}
         }
         else
         {

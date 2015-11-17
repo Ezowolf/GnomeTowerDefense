@@ -115,7 +115,12 @@ public class TowerStats : MonoBehaviour {
         int currentLevelIndex = levels.IndexOf(currentLevel);
         if (currentLevelIndex < levels.Count - 1)
         {
+			if (GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold >= 100)
+			{
+			GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold -= 100;
+			//Upgrade gold check
             CurrentLevel = levels[currentLevelIndex + 1];
+			}
         }
     }
 }
