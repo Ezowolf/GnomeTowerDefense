@@ -128,22 +128,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levels:
-  - newSprite: {fileID: 21300000, guid: 4488e9bc7af5b804494d859561711a1c, type: 3}
-    graphic: {fileID: 143866}
-    myRange: 2
+  - graphic: {fileID: 143866}
+    myRange: 3
     myHealth: 1
     myCost: 0
-    myFiringInterval: 2
+    myFiringInterval: .5
     myShootingPower: 1
-  - newSprite: {fileID: 21300002, guid: 4488e9bc7af5b804494d859561711a1c, type: 3}
-    graphic: {fileID: 149662}
+  - graphic: {fileID: 149662}
     myRange: 4
     myHealth: 1
     myCost: 0
     myFiringInterval: 1
     myShootingPower: 3
-  - newSprite: {fileID: 21300004, guid: 4488e9bc7af5b804494d859561711a1c, type: 3}
-    graphic: {fileID: 184520}
+  - graphic: {fileID: 184520}
     myRange: 6
     myHealth: 1
     myCost: 0
@@ -295,7 +292,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].myRange
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].myRange
@@ -307,7 +304,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].myFiringInterval
-      value: 2
+      value: .5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].myFiringInterval

@@ -8,8 +8,8 @@ public class EnemySpawner : WaveCheck {
 	[SerializeField]
 	private float SpawnInterval;
 	int enemies = 4;
-	float x;
-	float y;
+	public float x;
+	public float y;
 
 	void Update () {
 		timer += Time.deltaTime;
