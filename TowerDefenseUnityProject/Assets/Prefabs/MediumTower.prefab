@@ -131,22 +131,23 @@ MonoBehaviour:
   - graphic: {fileID: 143866}
     myRange: 3
     myHealth: 1
-    myCost: 0
+    myUpgradeCost: 25
     myFiringInterval: .5
     myShootingPower: 1
   - graphic: {fileID: 149662}
     myRange: 4
     myHealth: 1
-    myCost: 0
+    myUpgradeCost: 35
     myFiringInterval: 1
     myShootingPower: 3
   - graphic: {fileID: 184520}
     myRange: 6
     myHealth: 1
-    myCost: 0
+    myUpgradeCost: 0
     myFiringInterval: .200000003
     myShootingPower: 1
   myBullet: {fileID: 165716, guid: 05972ce0c70e84f0781279699193b86a, type: 2}
+  myBuildCost: 50
 --- !u!212 &21211312
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -376,6 +377,26 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Sprite
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[0].myCost
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[1].myCost
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[2].myCost
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[0].myUpgradeCost
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: levels.Array.data[1].myUpgradeCost
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

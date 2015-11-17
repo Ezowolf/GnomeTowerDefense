@@ -130,7 +130,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461592, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
       propertyPath: movementSpeed
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 21246018, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
       propertyPath: m_Sprite
@@ -275,7 +275,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &1064494597
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +302,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1089577697
 GameObject:
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ GameObject:
   - 114: {fileID: 1089577698}
   m_Layer: 0
   m_Name: GroundTrooperTester
-  m_TagString: Untagged
+  m_TagString: myTrooper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,9 +342,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: .00320053101, y: .00640296936}
   serializedVersion: 2
-  m_Size: {x: .930000007, y: .850000024}
+  m_Size: {x: .513851702, y: .734757543}
 --- !u!212 &1089577700
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -382,7 +382,66 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
+--- !u!1001 &1789933620
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 28.2619896
+      objectReference: {fileID: 0}
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 13.3699999
+      objectReference: {fileID: 0}
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 432320, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11453488, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: MyEnemyHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461592, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: movementSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 21246018, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300010, guid: 4488e9bc7af5b804494d859561711a1c,
+        type: 3}
+    - target: {fileID: 188368, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+      propertyPath: m_Name
+      value: Enemy (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d1139bc2a54607243862a83487c9ca0b, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &2132432946
 Prefab:
   m_ObjectHideFlags: 0

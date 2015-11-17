@@ -18,7 +18,7 @@ public class EnemySpawner : WaveCheck {
 
 	public void SpawnEnemies () {
 		enemies = enemies + 2;
-		Debug.Log (Mathf.Round(timer));
+		//Debug.Log (Mathf.Round(timer));
 		if (timer >= SpawnInterval) {
 			waves = waves + 1;
 			timer = 0;

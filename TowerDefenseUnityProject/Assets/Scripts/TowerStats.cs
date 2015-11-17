@@ -7,7 +7,7 @@ public class MyLevelStats
    public GameObject graphic;
    public float myRange;
    public int myHealth = 1;
-   public int myCost;
+   public int myUpgradeCost;
    public float myFiringInterval;  
    public int myShootingPower;
 }
@@ -20,6 +20,8 @@ public class TowerStats : MonoBehaviour {
 	public GameObject myBullet;
 	
 	private int layerMask;
+
+	public int myBuildCost = 50;
 
 	void Start()
 	{
@@ -115,10 +117,9 @@ public class TowerStats : MonoBehaviour {
         int currentLevelIndex = levels.IndexOf(currentLevel);
         if (currentLevelIndex < levels.Count - 1)
         {
-			if (GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold >= 100)
+			if (GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold >= currentLevel.myUpgradeCost)
 			{
-			GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold -= 100;
-			//Upgrade gold check
+			GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold -= currentLevel.myUpgradeCost;
             CurrentLevel = levels[currentLevelIndex + 1];
 			}
         }
