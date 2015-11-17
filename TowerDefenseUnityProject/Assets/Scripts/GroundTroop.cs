@@ -4,10 +4,11 @@ using System.Collections;
 public class GroundTroop : MonoBehaviour {
 	private int myHealth = 5;
 	private int layerMask;
-	private Vector3 myStartingPosition;
-	private Vector3 theTargetPosition;
+	private Vector2 myStartingPosition;
+	private Vector2 theTargetPosition;
 	private bool amIFighting = false;
 	private float healthTimer = 0;
+	public int myPower = 2;
 	// Use this for initialization
 	void Start () {
 		layerMask = LayerMask.GetMask("Enemy");
@@ -15,21 +16,26 @@ public class GroundTroop : MonoBehaviour {
 	}
 
 	void Update () {
+		Collider2D myRadius = Physics2D.OverlapCircle(myStartingPosition,2F, layerMask);
+		Collider2D myRange = Physics2D.OverlapCircle(this.transform.position,0.5F, layerMask);
 		if(myHealth <= 0)
 		{
-			TroopDeath();
+			TroopDeath(myRange.transform.gameObject);
 		}
 
-		Collider2D myRadius = Physics2D.OverlapCircle(myStartingPosition,2F, layerMask);
 		if(myRadius != null&&amIFighting==false)
 		{
 			theTargetPosition = myRadius.transform.position;
+			myRadius.transform.gameObject.GetComponent<MoveToTheLeft>().shouldIMove = false;
 			transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), theTargetPosition, 3F * Time.deltaTime);
-			if(this.transform.position == theTargetPosition)
-			{
-				amIFighting = true;
-			}
 		}
+
+		if(myRange != null&&amIFighting==false)
+		{
+			amIFighting=true;
+			myRange.gameObject.GetComponent<EnemyHealth>().amIFighting = true;
+		}
+
 		if(amIFighting == true)
 		{
 			healthTimer+=Time.deltaTime;
@@ -40,10 +46,29 @@ public class GroundTroop : MonoBehaviour {
 				Debug.Log(myHealth);
 			}
 		}
+		if(myRange == null&& amIFighting==true)
+		{
+			amIFighting=false;
+		}
+
+		if(myRange == null&&myRadius == null)
+		{
+			transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), myStartingPosition, 3F * Time.deltaTime);
+		}
+
+	}
+	
+
+	public void StopFighting()
+	{
+		amIFighting = false;
+		
 	}
 
-	void TroopDeath()
+	void TroopDeath(GameObject whoKilledMe)
 	{
+		whoKilledMe.GetComponent<MoveToTheLeft>().shouldIMove = true;
+		whoKilledMe.GetComponent<EnemyHealth>().amIFighting = false;
 		Destroy(this.gameObject);
 	}
 }

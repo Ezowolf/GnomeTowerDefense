@@ -3,6 +3,8 @@ using System.Collections;
 
 public class EnemyHealth : MonoBehaviour {
 	public int MyEnemyHealth;
+	public bool amIFighting = false;
+	private float healthTimer = 0;
 
 
 	void Update()
@@ -10,6 +12,16 @@ public class EnemyHealth : MonoBehaviour {
 		if(MyEnemyHealth<=0)
 		{
 			EnemyDeath();
+		}
+		if(amIFighting==true)
+		{
+		healthTimer+=Time.deltaTime;
+		if(healthTimer>=1)
+		{
+			healthTimer=0;
+			MyEnemyHealth= MyEnemyHealth-5;
+			Debug.Log("Enemy health: "+MyEnemyHealth);
+		}
 		}
 	}
 
@@ -19,4 +31,5 @@ public class EnemyHealth : MonoBehaviour {
 		GameObject.Find ("ScoreCounter").GetComponent<ScoreCounter> ().score += 100;
 		Destroy(this.gameObject);
 	}
+	
 }
