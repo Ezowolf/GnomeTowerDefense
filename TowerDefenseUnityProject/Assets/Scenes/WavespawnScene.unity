@@ -392,7 +392,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 400, y: 166}
+  m_AnchoredPosition: {x: 550, y: 300}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &546309513
@@ -481,7 +481,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'Score:'
 --- !u!224 &803168599
 RectTransform:
   m_ObjectHideFlags: 0
@@ -496,7 +496,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -400, y: -166}
+  m_AnchoredPosition: {x: -550, y: -300}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!222 &803168600
@@ -890,7 +890,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 405, y: -176}
+  m_AnchoredPosition: {x: 550, y: -300}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1189442968
@@ -1473,7 +1473,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -400, y: 166}
+  m_AnchoredPosition: {x: -550, y: 300}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1925232484
@@ -1713,7 +1713,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.64122581
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
