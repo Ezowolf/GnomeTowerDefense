@@ -26,7 +26,7 @@ public class GroundTroop : MonoBehaviour {
 		if(myRadius != null&&amIFighting==false)
 		{
 			theTargetPosition = myRadius.transform.position;
-			myRadius.transform.gameObject.GetComponent<MoveToTheLeft>().shouldIMove = false;
+			//myRadius.transform.gameObject.GetComponent<MoveToTheLeft>().shouldIMove = false;
 			transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), theTargetPosition, 3F * Time.deltaTime);
 		}
 
@@ -43,7 +43,7 @@ public class GroundTroop : MonoBehaviour {
 			{
 				healthTimer=0;
 				myHealth--;
-				Debug.Log(myHealth);
+				//Debug.Log(myHealth);
 			}
 		}
 		if(myRange == null&& amIFighting==true)

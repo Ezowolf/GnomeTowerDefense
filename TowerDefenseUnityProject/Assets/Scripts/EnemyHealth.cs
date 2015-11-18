@@ -20,7 +20,7 @@ public class EnemyHealth : MonoBehaviour {
 		{
 			healthTimer=0;
 			MyEnemyHealth= MyEnemyHealth-5;
-			Debug.Log("Enemy health: "+MyEnemyHealth);
+			//Debug.Log("Enemy health: "+MyEnemyHealth);
 		}
 		}
 	}
