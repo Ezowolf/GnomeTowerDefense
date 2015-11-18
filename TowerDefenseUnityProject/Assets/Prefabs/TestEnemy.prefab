@@ -9,10 +9,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 467542}
   - 212: {fileID: 21298932}
-  - 50: {fileID: 5013278}
   - 114: {fileID: 11458032}
-  - 58: {fileID: 5886156}
-  m_Layer: 0
+  - 61: {fileID: 6134590}
+  - 114: {fileID: 11483702}
+  m_Layer: 8
   m_Name: TestEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -31,35 +31,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5013278
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 139154}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!58 &5886156
-CircleCollider2D:
+--- !u!61 &6134590
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139154}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: .495000005
+  m_Size: {x: .829999983, y: .99000001}
 --- !u!114 &11458032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -68,9 +52,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 139154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa0f9bfab81634fb097daaad2a2609c1, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a5aa840bc09cc647a827d46a721da58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movementSpeed: 2
+--- !u!114 &11483702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1e111fe614649feae9bcde3c1ac085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyEnemyHealth: 3
 --- !u!212 &21298932
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -93,7 +90,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
+  m_SortingLayerID: 703539007
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9ed8a352f117744248a9ddd9f8a4f29a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -107,6 +104,22 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: movementSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MyEnemyHealth
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingLayerID
+      value: 703539007
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

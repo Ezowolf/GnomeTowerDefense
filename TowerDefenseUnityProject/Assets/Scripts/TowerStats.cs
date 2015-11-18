@@ -21,8 +21,6 @@ public class TowerStats : MonoBehaviour {
 	
 	private int layerMask;
 
-	public int myBuildCost = 50;
-
 	void Start()
 	{
 		layerMask = LayerMask.GetMask("Enemy");
@@ -119,8 +117,8 @@ public class TowerStats : MonoBehaviour {
         {
 			if (GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold >= currentLevel.myUpgradeCost)
 			{
-			GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold -= currentLevel.myUpgradeCost;
-            CurrentLevel = levels[currentLevelIndex + 1];
+				GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold -= currentLevel.myUpgradeCost;
+				CurrentLevel = levels[currentLevelIndex + 1];
 			}
         }
     }
