@@ -9,6 +9,7 @@ TagManager:
   - SpotForTower
   - TowerUI
   - myTrooper
+  - Waypoint
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,496 @@
+fileFormatVersion: 2
+guid: 9d35cfb29d0c64386b25662e542b4acc
+timeCreated: 1448290761
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: zombie kabouteranimatie-1_0
+    21300002: zombie kabouteranimatie-1_1
+    21300004: zombie kabouteranimatie-1_2
+    21300006: zombie kabouteranimatie-1_3
+    21300008: zombie kabouteranimatie-1_4
+    21300010: zombie kabouteranimatie-1_5
+    21300012: zombie kabouteranimatie-1_6
+    21300014: zombie kabouteranimatie-1_7
+    21300016: zombie kabouteranimatie-1_8
+    21300018: zombie kabouteranimatie-1_9
+    21300020: zombie kabouteranimatie-1_10
+    21300022: zombie kabouteranimatie-1_11
+    21300024: zombie kabouteranimatie-1_12
+    21300026: zombie kabouteranimatie-1_13
+    21300028: zombie kabouteranimatie-1_14
+    21300030: zombie kabouteranimatie-1_15
+    21300032: zombie kabouteranimatie-1_16
+    21300034: zombie kabouteranimatie-1_17
+    21300036: zombie kabouteranimatie-1_18
+    21300038: zombie kabouteranimatie-1_19
+    21300040: zombie kabouteranimatie-1_20
+    21300042: zombie kabouteranimatie-1_21
+    21300044: zombie kabouteranimatie-1_22
+    21300046: zombie kabouteranimatie-1_23
+    21300048: zombie kabouteranimatie-1_24
+    21300050: zombie kabouteranimatie-1_25
+    21300052: zombie kabouteranimatie-1_26
+    21300054: zombie kabouteranimatie-1_27
+    21300056: zombie kabouteranimatie-1_28
+    21300058: zombie kabouteranimatie-1_29
+    21300060: zombie kabouteranimatie-1_30
+    21300062: zombie kabouteranimatie-1_31
+    21300064: zombie kabouteranimatie-1_32
+    21300066: zombie kabouteranimatie-1_33
+    21300068: zombie kabouteranimatie-1_34
+    21300070: zombie kabouteranimatie-1_35
+    21300072: zombie kabouteranimatie-1_36
+    21300074: zombie kabouteranimatie-1_37
+    21300076: zombie kabouteranimatie-1_38
+    21300078: zombie kabouteranimatie-1_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: zombie kabouteranimatie-1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1818
+        width: 128
+        height: 225
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1819
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1821
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_3
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1823
+        width: 134
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1824
+        width: 139
+        height: 218
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_5
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1820
+        width: 130
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1820
+        width: 126
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1585
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1582
+        width: 123
+        height: 226
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_9
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1581
+        width: 121
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_10
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1582
+        width: 120
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_11
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1582
+        width: 120
+        height: 226
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_12
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1581
+        width: 121
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_13
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1584
+        width: 123
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1349
+        width: 127
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_15
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1349
+        width: 131
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_16
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1350
+        width: 131
+        height: 221
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_17
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1349
+        width: 125
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_18
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1349
+        width: 122
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_19
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1348
+        width: 121
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_20
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1348
+        width: 123
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1114
+        width: 125
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1115
+        width: 124
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1117
+        width: 128
+        height: 221
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_24
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1118
+        width: 134
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_25
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1120
+        width: 139
+        height: 219
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_26
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1118
+        width: 130
+        height: 220
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_27
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1112
+        width: 123
+        height: 228
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 872
+        width: 121
+        height: 229
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 874
+        width: 120
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_30
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 875
+        width: 120
+        height: 227
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_31
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 877
+        width: 123
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_32
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 879
+        width: 126
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_33
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 879
+        width: 129
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_34
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 880
+        width: 133
+        height: 221
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_35
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 642
+        width: 127
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_36
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 642
+        width: 123
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_37
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 641
+        width: 121
+        height: 223
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_38
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 641
+        width: 122
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: zombie kabouteranimatie-1_39
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 640
+        width: 125
+        height: 224
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
