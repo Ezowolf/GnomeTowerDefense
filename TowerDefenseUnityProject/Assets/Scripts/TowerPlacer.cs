@@ -28,7 +28,8 @@ public class TowerPlacer : MonoBehaviour {
             MyLevelStats nextLevel = StatsToModify.UpgradingCheck();
             if(nextLevel != null)
             {
-                theTower.GetComponent<TowerStats>().UpgradeMe();
+                //theTower.GetComponent<TowerStats>().UpgradeMe();
+				theTower.GetComponent<TowerStats>().ShowTowerUI();
             }
         }
     }

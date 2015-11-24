@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1e111fe614649feae9bcde3c1ac085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyEnemyHealth: 10
+  MyEnemyHealth: 7
   amIFighting: 0
 --- !u!114 &11461592
 MonoBehaviour:
@@ -70,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 2
   shouldIMove: 1
+  amITowerBuster: 0
 --- !u!212 &21246018
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -121,7 +122,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: MyEnemyHealth
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Sprite
