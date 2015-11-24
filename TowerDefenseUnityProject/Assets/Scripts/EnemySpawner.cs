@@ -11,6 +11,12 @@ public class EnemySpawner : WaveCheck {
 	public float x;
 	public float y;
 
+	public float minX;
+	public float maxX;
+
+	public float minY;
+	public float maxY;
+
 	void Update () {
 		timer += Time.deltaTime;
 		SetCountText ();
@@ -25,8 +31,8 @@ public class EnemySpawner : WaveCheck {
 			for (int i = 0; i < enemies; i++) {
 				int randomIndex = Random.Range (0, enemyPrefabs.Length);
 				GameObject enemy = enemyPrefabs[randomIndex];
-				x = Random.Range (5.0f, 10.0f);
-				y = Random.Range (1.0f, 5.0f);
+				x = Random.Range (minX, maxX);
+				y = Random.Range (minY, maxY);
 				Instantiate (enemy, new Vector2 (x,y), Quaternion.identity);
 			}
 		}

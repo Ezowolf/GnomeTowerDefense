@@ -129,23 +129,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levels:
   - graphic: {fileID: 143866}
-    myRange: 3
-    myHealth: 1
-    myUpgradeCost: 35
-    myFiringInterval: .5
-    myShootingPower: 1
-  - graphic: {fileID: 149662}
     myRange: 4
     myHealth: 1
-    myUpgradeCost: 75
-    myFiringInterval: 1
+    myUpgradeCost: 50
+    myFiringInterval: .5
+    myShootingPower: 3
+  - graphic: {fileID: 149662}
+    myRange: 5
+    myHealth: 1
+    myUpgradeCost: 100
+    myFiringInterval: .349999994
     myShootingPower: 3
   - graphic: {fileID: 184520}
-    myRange: 6
+    myRange: 5.4000001
     myHealth: 1
     myUpgradeCost: 150
-    myFiringInterval: .200000003
-    myShootingPower: 1
+    myFiringInterval: .340000004
+    myShootingPower: 3
   myBullet: {fileID: 165716, guid: 05972ce0c70e84f0781279699193b86a, type: 2}
 --- !u!212 &21211312
 SpriteRenderer:
@@ -292,15 +292,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].myRange
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].myRange
-      value: 6
+      value: 5.4000001
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].myRange
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].myFiringInterval
@@ -308,11 +308,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].myFiringInterval
-      value: 1
+      value: .349999994
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].myFiringInterval
-      value: .200000003
+      value: .340000004
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].myBullet
@@ -324,7 +324,7 @@ Prefab:
       objectReference: {fileID: 165716, guid: 05972ce0c70e84f0781279699193b86a, type: 2}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].myShootingPower
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].myShootingPower
@@ -332,7 +332,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].myShootingPower
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[3].graphic
@@ -391,11 +391,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[0].myUpgradeCost
-      value: 35
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[1].myUpgradeCost
-      value: 75
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: levels.Array.data[2].myUpgradeCost
