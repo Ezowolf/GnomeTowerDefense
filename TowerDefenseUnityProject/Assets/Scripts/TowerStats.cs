@@ -20,11 +20,6 @@ public class TowerStats : MonoBehaviour {
 	public GameObject myBullet;
 	
 	private int layerMask;
-	public GameObject CanvasTower;
-
-	void Awake () {
-		CanvasTower = this.transform.Find ("CanvasTower").gameObject;
-	}
 
 	void Start()
 	{
@@ -35,12 +30,11 @@ public class TowerStats : MonoBehaviour {
     {
         CurrentLevel = levels[0];
 	}
-	/*
 	void OnDrawGizmos()
 	{
 		Gizmos.color = Color.black;
 		Gizmos.DrawWireSphere(transform.position, currentLevel.myRange);
-	}*/
+	}
 
 	void ShootTheEnemy(Vector2 shootHere)
 	{
@@ -128,16 +122,4 @@ public class TowerStats : MonoBehaviour {
 			}
         }
     }
-
-	public void ShowTowerUI () 
-	{
-		Debug.Log ("OpenUI");
-		if (CanvasTower.activeInHierarchy == true) {
-			CanvasTower.SetActive (false);
-			Debug.Log ("false");
-		} else {
-			CanvasTower.SetActive(true);
-			Debug.Log ("true");
-		}
-	}
 }

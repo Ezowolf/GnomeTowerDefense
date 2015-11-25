@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 614bfc0a876e6453898b6f7c5f9bf255
+timeCreated: 1448376856
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kabouter 2 walk_0
+    21300002: Kabouter 2 walk_1
+    21300004: Kabouter 2 walk_2
+    21300006: Kabouter 2 walk_3
+    21300008: Kabouter 2 walk_4
+    21300010: Kabouter 2 walk_5
+    21300012: Kabouter 2 walk_6
+    21300014: Kabouter 2 walk_7
+    21300016: Kabouter 2 walk_8
+    21300018: Kabouter 2 walk_9
+    21300020: Kabouter 2 walk_10
+    21300022: Kabouter 2 walk_11
+    21300024: Kabouter 2 walk_12
+    21300026: Kabouter 2 walk_13
+    21300028: Kabouter 2 walk_14
+    21300030: Kabouter 2 walk_15
+    21300032: Kabouter 2 walk_16
+    21300034: Kabouter 2 walk_17
+    21300036: Kabouter 2 walk_18
+    21300038: Kabouter 2 walk_19
+    21300040: Kabouter 2 walk_20
+    21300042: Kabouter 2 walk_21
+    21300044: Kabouter 2 walk_22
+    21300046: Kabouter 2 walk_23
+    21300048: Kabouter 2 walk_24
+    21300050: Kabouter 2 walk_25
+    21300052: Kabouter 2 walk_26
+    21300054: Kabouter 2 walk_27
+    21300056: Kabouter 2 walk_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kabouter 2 walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1775
+        width: 174
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1775
+        width: 172
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_2
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1775
+        width: 170
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_3
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1775
+        width: 168
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1775
+        width: 167
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1492
+        width: 165
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1492
+        width: 163
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_7
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1492
+        width: 161
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_8
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1492
+        width: 159
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_9
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1492
+        width: 157
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1209
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1209
+        width: 153
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_12
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1209
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_13
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1209
+        width: 149
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_14
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1209
+        width: 148
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 926
+        width: 150
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 926
+        width: 151
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_17
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 926
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_18
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 926
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_19
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 926
+        width: 157
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 643
+        width: 159
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 643
+        width: 160
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_22
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 643
+        width: 161
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_23
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 643
+        width: 163
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_24
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 643
+        width: 165
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 360
+        width: 167
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_26
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 360
+        width: 168
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_27
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 360
+        width: 170
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 walk_28
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 360
+        width: 172
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

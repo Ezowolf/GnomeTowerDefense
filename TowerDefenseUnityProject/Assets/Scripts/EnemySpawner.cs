@@ -7,7 +7,7 @@ public class EnemySpawner : WaveCheck {
 	private float timer = 0;
 	[SerializeField]
 	private float SpawnInterval;
-	int enemies = 0;
+	int enemies = 4;
 	public float x;
 	public float y;
 
@@ -23,10 +23,10 @@ public class EnemySpawner : WaveCheck {
 	}
 
 	public void SpawnEnemies () {
-		enemies = enemies + 1;
+		enemies = enemies + 2;
 		//Debug.Log (Mathf.Round(timer));
 		if (timer >= SpawnInterval) {
-			waves++;
+			waves = waves + 1;
 			timer = 0;
 			for (int i = 0; i < enemies; i++) {
 				int randomIndex = Random.Range (0, enemyPrefabs.Length);
@@ -35,10 +35,6 @@ public class EnemySpawner : WaveCheck {
 				y = Random.Range (minY, maxY);
 				Instantiate (enemy, new Vector2 (x,y), Quaternion.identity);
 			}
-		}
-
-		if (waves >= 2) {
-			enemies = enemies + 3;
 		}
 	}
 }

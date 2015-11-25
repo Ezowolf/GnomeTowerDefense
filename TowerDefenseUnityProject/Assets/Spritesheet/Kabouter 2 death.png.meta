@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: ab543116be45744f989626f598256eb0
+timeCreated: 1448376765
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kabouter 2 death_0
+    21300002: Kabouter 2 death_1
+    21300004: Kabouter 2 death_2
+    21300006: Kabouter 2 death_3
+    21300008: Kabouter 2 death_4
+    21300010: Kabouter 2 death_5
+    21300012: Kabouter 2 death_6
+    21300014: Kabouter 2 death_7
+    21300016: Kabouter 2 death_8
+    21300018: Kabouter 2 death_9
+    21300020: Kabouter 2 death_10
+    21300022: Kabouter 2 death_11
+    21300024: Kabouter 2 death_12
+    21300026: Kabouter 2 death_13
+    21300028: Kabouter 2 death_14
+    21300030: Kabouter 2 death_15
+    21300032: Kabouter 2 death_16
+    21300034: Kabouter 2 death_17
+    21300036: Kabouter 2 death_18
+    21300038: Kabouter 2 death_19
+    21300040: Kabouter 2 death_20
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kabouter 2 death_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1782
+        width: 174
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_1
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1778
+        width: 168
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1772
+        width: 163
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_3
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1769
+        width: 162
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_4
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1766
+        width: 159
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_5
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1758
+        width: 166
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1439
+        width: 186
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1436
+        width: 203
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_8
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1432
+        width: 216
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_9
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1429
+        width: 233
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_10
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1429
+        width: 245
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_11
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1429
+        width: 256
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1112
+        width: 271
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1112
+        width: 281
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_14
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1112
+        width: 293
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_15
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1112
+        width: 297
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_16
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1112
+        width: 300
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_17
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1112
+        width: 303
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 792
+        width: 306
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_19
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 791
+        width: 308
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Kabouter 2 death_20
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 791
+        width: 308
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

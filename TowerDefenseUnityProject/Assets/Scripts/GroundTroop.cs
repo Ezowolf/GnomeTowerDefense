@@ -2,14 +2,14 @@
 using System.Collections;
 
 public class GroundTroop : MonoBehaviour {
-	private int myHealth = 5;
+	public int myHealth = 25;
 	private int layerMask;
 	private Vector2 myStartingPosition;
 	private Vector2 theTargetPosition;
 	private bool amIFighting = false;
 	private float healthTimer = 0;
 	public int myPower = 2;
-	// Use this for initialization
+
 	void Start () {
 		layerMask = LayerMask.GetMask("Enemy");
 		myStartingPosition = this.transform.position;
@@ -26,7 +26,6 @@ public class GroundTroop : MonoBehaviour {
 		if(myRadius != null&&amIFighting==false)
 		{
 			theTargetPosition = myRadius.transform.position;
-			//myRadius.transform.gameObject.GetComponent<MoveToTheLeft>().shouldIMove = false;
 			transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), theTargetPosition, 3F * Time.deltaTime);
 		}
 
@@ -43,7 +42,6 @@ public class GroundTroop : MonoBehaviour {
 			{
 				healthTimer=0;
 				myHealth--;
-				//Debug.Log(myHealth);
 			}
 		}
 		if(myRange == null&& amIFighting==true)
@@ -67,7 +65,6 @@ public class GroundTroop : MonoBehaviour {
 
 	void TroopDeath(GameObject whoKilledMe)
 	{
-		whoKilledMe.GetComponent<MoveToTheLeft>().shouldIMove = true;
 		whoKilledMe.GetComponent<EnemyHealth>().amIFighting = false;
 		Destroy(this.gameObject);
 	}
