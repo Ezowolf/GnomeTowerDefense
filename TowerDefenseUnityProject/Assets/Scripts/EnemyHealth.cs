@@ -8,12 +8,16 @@ public class EnemyHealth : MonoBehaviour {
 	private Animator animator;
 	private Animation deathAnimation;
 	private FollowWPoint myMoveScript;
+	public float myWalkingSpeedCnt;
+	private bool amIDead;
+	public GameObject troopImFighting;
 
 	void Start()
 	{
 		animator = GetComponent<Animator>();
 		deathAnimation = GetComponent<Animation>();
 		myMoveScript = GetComponent<FollowWPoint>();
+		myWalkingSpeedCnt = myMoveScript.speed;
 	}
 
 	void Update()
@@ -24,20 +28,34 @@ public class EnemyHealth : MonoBehaviour {
 		}
 		if(amIFighting==true)
 		{
+		animator.SetBool("amIFighting",true);
+		troopImFighting.GetComponent<GroundTroop>().whoAmIFighting = this.transform.gameObject;
 		healthTimer+=Time.deltaTime;
+		myMoveScript.speed = 0;
 		if(healthTimer>=1)
 		{
 			healthTimer=0;
-			MyEnemyHealth= MyEnemyHealth-10;
+			MyEnemyHealth= MyEnemyHealth-15;
 		}
+		}
+		else if(amIDead == false)
+		{
+			animator.SetBool("amIFighting",false);
+			myMoveScript.speed = myWalkingSpeedCnt;
 		}
 	}
 
 	void EnemyDeath()
 	{
+		amIDead = true;
+		myMoveScript.speed = 0;
+		if(amIFighting==true)
+		{
+			if(troopImFighting!=null)
+			troopImFighting.GetComponent<GroundTroop>().iKillled();
+		}
 		gameObject.tag = "Untagged";
 		gameObject.layer = 0;
-		myMoveScript.speed = 0;
 		animator.SetBool("amIDead",true);
 		StartCoroutine(DeathDestroy());
 	}

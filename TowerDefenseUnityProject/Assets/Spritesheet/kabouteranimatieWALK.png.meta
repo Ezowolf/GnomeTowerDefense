@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 0893e740bab164913b1cc2d3d57f5f1d
+timeCreated: 1448543545
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kabouteranimatieWALK_0
+    21300002: kabouteranimatieWALK_1
+    21300004: kabouteranimatieWALK_2
+    21300006: kabouteranimatieWALK_3
+    21300008: kabouteranimatieWALK_4
+    21300010: kabouteranimatieWALK_5
+    21300012: kabouteranimatieWALK_6
+    21300014: kabouteranimatieWALK_7
+    21300016: kabouteranimatieWALK_8
+    21300018: kabouteranimatieWALK_9
+    21300020: kabouteranimatieWALK_10
+    21300022: kabouteranimatieWALK_11
+    21300024: kabouteranimatieWALK_12
+    21300026: kabouteranimatieWALK_13
+    21300028: kabouteranimatieWALK_14
+    21300030: kabouteranimatieWALK_15
+    21300032: kabouteranimatieWALK_16
+    21300034: kabouteranimatieWALK_17
+    21300036: kabouteranimatieWALK_18
+    21300038: kabouteranimatieWALK_19
+    21300040: kabouteranimatieWALK_20
+    21300042: kabouteranimatieWALK_21
+    21300044: kabouteranimatieWALK_22
+    21300046: kabouteranimatieWALK_23
+    21300048: kabouteranimatieWALK_24
+    21300050: kabouteranimatieWALK_25
+    21300052: kabouteranimatieWALK_26
+    21300054: kabouteranimatieWALK_27
+    21300056: kabouteranimatieWALK_28
+    21300058: kabouteranimatieWALK_29
+    21300060: kabouteranimatieWALK_30
+    21300062: kabouteranimatieWALK_31
+    21300064: kabouteranimatieWALK_32
+    21300066: kabouteranimatieWALK_33
+    21300068: kabouteranimatieWALK_34
+    21300070: kabouteranimatieWALK_35
+    21300072: kabouteranimatieWALK_36
+    21300074: kabouteranimatieWALK_37
+    21300076: kabouteranimatieWALK_38
+    21300078: kabouteranimatieWALK_39
+    21300080: kabouteranimatieWALK_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kabouteranimatieWALK_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1819
+        width: 149
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1820
+        width: 144
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_2
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1822
+        width: 140
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_3
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1823
+        width: 137
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1825
+        width: 137
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_5
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1822
+        width: 137
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1588
+        width: 138
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1586
+        width: 140
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_8
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1583
+        width: 142
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_9
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1582
+        width: 142
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1583
+        width: 142
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_11
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1583
+        width: 142
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1345
+        width: 142
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1348
+        width: 140
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_14
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1350
+        width: 139
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_15
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1351
+        width: 138
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1352
+        width: 136
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_17
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1352
+        width: 138
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1115
+        width: 139
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1114
+        width: 141
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1114
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1113
+        width: 145
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_22
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1114
+        width: 144
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_23
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1116
+        width: 140
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 885
+        width: 136
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 886
+        width: 136
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_26
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 884
+        width: 136
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_27
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 882
+        width: 140
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_28
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 880
+        width: 139
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_29
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 876
+        width: 141
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 638
+        width: 142
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_31
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 638
+        width: 142
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_32
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 638
+        width: 142
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_33
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 641
+        width: 140
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_34
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 644
+        width: 137
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_35
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 645
+        width: 135
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 406
+        width: 137
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 406
+        width: 138
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_38
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 406
+        width: 140
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_39
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 405
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieWALK_40
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 405
+        width: 145
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

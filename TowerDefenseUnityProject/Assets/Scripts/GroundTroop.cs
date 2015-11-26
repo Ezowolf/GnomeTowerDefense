@@ -2,41 +2,77 @@
 using System.Collections;
 
 public class GroundTroop : MonoBehaviour {
-	public int myHealth = 25;
+	public int myHealth = 35;
 	private int layerMask;
 	private Vector2 myStartingPosition;
 	private Vector2 theTargetPosition;
 	private bool amIFighting = false;
 	private float healthTimer = 0;
 	public int myPower = 2;
+	private float radiusChange = 2F;
+	private float rangeChange = 0.3F;
+	private Vector2 myTarget;
+	private bool foundTarget;
+	private bool iHaveToReturn;
+	private GameObject whoKilledMe;
+	public GameObject whoAmIFighting;
+	private Animator animator;
+	private Animation deathAnimation;
 
 	void Start () {
 		layerMask = LayerMask.GetMask("Enemy");
 		myStartingPosition = this.transform.position;
+		animator = GetComponent<Animator>();
+		deathAnimation = GetComponent<Animation>();
 	}
 
 	void Update () {
-		Collider2D myRadius = Physics2D.OverlapCircle(myStartingPosition,2F, layerMask);
-		Collider2D myRange = Physics2D.OverlapCircle(this.transform.position,0.5F, layerMask);
-		if(myHealth <= 0)
+		Vector2 myPos = this.transform.position;
+		Collider2D myRadius = Physics2D.OverlapCircle(myStartingPosition,radiusChange, layerMask);
+		Collider2D myRange = Physics2D.OverlapCircle(this.transform.position,rangeChange, layerMask);
+
+		if (myStartingPosition == myPos)
 		{
-			TroopDeath(myRange.transform.gameObject);
+			iHaveToReturn = false;
+			amIFighting = false;
+			foundTarget = false;
+			radiusChange = 2F;
+			rangeChange = 0.3F;
+		}
+		else
+		{
+			radiusChange = 0F;
 		}
 
-		if(myRadius != null&&amIFighting==false)
+		if(myRadius!=null&&myRadius.GetComponent<EnemyHealth>().amIFighting==false&&myPos==myStartingPosition&&foundTarget==false)
 		{
-			theTargetPosition = myRadius.transform.position;
-			transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), theTargetPosition, 3F * Time.deltaTime);
+			myTarget = myRadius.transform.position;
+			foundTarget = true;
 		}
-
-		if(myRange != null&&amIFighting==false)
+		if(foundTarget)
 		{
-			amIFighting=true;
+		transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), myTarget, 5F*Time.deltaTime);
+		animator.SetBool("amIWalking",true);
+		}
+		if(iHaveToReturn)
+		{
+			transform.position = myStartingPosition;
+		}
+		if(myRange!=null&&foundTarget)
+		{
+			foundTarget = false;
+			amIFighting = true;
+
 			myRange.gameObject.GetComponent<EnemyHealth>().amIFighting = true;
+			myRange.gameObject.GetComponent<EnemyHealth>().troopImFighting = this.gameObject;
+			rangeChange = 0;
 		}
+
 
 		if(amIFighting == true)
 		{
+			animator.SetBool("amIFighting",true);
+			animator.SetBool("amIWalking",false);
 			healthTimer+=Time.deltaTime;
 			if(healthTimer>=1)
 			{
@@ -44,28 +80,35 @@ public class GroundTroop : MonoBehaviour {
 				myHealth--;
 			}
 		}
-		if(myRange == null&& amIFighting==true)
+		else
 		{
-			amIFighting=false;
+			animator.SetBool("amIFighting",false);
 		}
-
-		if(myRange == null&&myRadius == null)
+		if(myHealth<=0&&animator.GetBool("amIDead")==false)
 		{
-			transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), myStartingPosition, 3F * Time.deltaTime);
+			TroopDeath();
 		}
+	}
 
+	void TroopDeath()
+	{
+		if(whoAmIFighting!=null)
+		whoAmIFighting.GetComponent<EnemyHealth>().amIFighting = false;
+		gameObject.tag = "Untagged";
+		gameObject.layer = 0;
+		StartCoroutine(DeathDestroy());
+		animator.SetBool("amIDead",true);
 	}
 	
-
-	public void StopFighting()
+	IEnumerator DeathDestroy()
 	{
-		amIFighting = false;
-		
+		yield return new WaitForSeconds(deathAnimation.clip.length);
+		Destroy(this.gameObject);
 	}
 
-	void TroopDeath(GameObject whoKilledMe)
+	public void iKillled()
 	{
-		whoKilledMe.GetComponent<EnemyHealth>().amIFighting = false;
-		Destroy(this.gameObject);
+		amIFighting = false;
+		iHaveToReturn = true;
 	}
 }

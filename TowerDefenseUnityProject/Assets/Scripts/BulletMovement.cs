@@ -11,6 +11,14 @@ public class BulletMovement : MonoBehaviour
 	void Start()
 	{
 		myRB = GetComponent<Rigidbody2D>();
+		if(targetPosition.x>transform.position.x)
+		{
+			FlipX();
+		}
+		if(targetPosition.y>transform.position.y)
+		{
+			FlipY();
+		}
 	}
 
     void Update()
@@ -31,4 +39,18 @@ public class BulletMovement : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+	private void FlipX()
+	{
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
+	}
+
+	private void FlipY()
+	{
+		Vector3 theScale = transform.localScale;
+		theScale.y *= -1;
+		transform.localScale = theScale;
+	}
 }

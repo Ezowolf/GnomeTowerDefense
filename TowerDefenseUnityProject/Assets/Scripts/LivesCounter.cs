@@ -6,10 +6,14 @@ public class LivesCounter : MonoBehaviour {
 	public int baseHealth = 100;
 	public Text countBHealth;
 	public Text gameOverText;
+
+	private AudioSource source;
+	public AudioClip gameOverSound;
 	
 	void Start () {
 		countBHealth.text = "Lives: "+baseHealth;
 		gameOverText.text = "";
+		source = GetComponent<AudioSource>();
 	}
 
 	void Update () {
@@ -24,6 +28,7 @@ public class LivesCounter : MonoBehaviour {
 			Time.timeScale = 0;
 			baseHealth = 0;
 			gameOverText.text = "GAME OVER";
+			source.PlayOneShot(gameOverSound);
 		}
 	}
 }

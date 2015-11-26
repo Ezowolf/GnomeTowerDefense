@@ -28,7 +28,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 38.2900009, y: 26.6299992, z: 0}
+  m_LocalPosition: {x: 37.5458641, y: 24.7056046, z: 0}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -116,6 +116,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyEnemyHealth: 30
   amIFighting: 0
+  myWalkingSpeedCnt: 0
+  troopImFighting: {fileID: 0}
 --- !u!212 &21235304
 SpriteRenderer:
   m_ObjectHideFlags: 1

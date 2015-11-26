@@ -20,6 +20,7 @@ public class FollowWPoint : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		speed=speed+0.0001F;
 		Collider2D myRadius = Physics2D.OverlapCircle(transform.position,3F, layerMask);
 		myPosition = this.transform.position;
 
@@ -42,7 +43,7 @@ public class FollowWPoint : MonoBehaviour {
 			}
 		}
 		
-		if(myRadius!=null&&amITowerBuster)
+		if(myRadius!=null&&amITowerBuster==true)
 		{
 			Debug.Log("!!!");
 			transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), myRadius.transform.position, speed * Time.deltaTime);

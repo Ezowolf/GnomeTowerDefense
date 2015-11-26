@@ -17,6 +17,14 @@ public class EnemySpawner : WaveCheck {
 	public float minY;
 	public float maxY;
 
+	private AudioSource source;
+	public AudioClip newWaveSound;
+
+	void Start()
+	{
+		source = GetComponent<AudioSource>();
+	}
+
 	void Update () {
 		timer += Time.deltaTime;
 		SetCountText ();
@@ -26,6 +34,7 @@ public class EnemySpawner : WaveCheck {
 		enemies = enemies + 2;
 		//Debug.Log (Mathf.Round(timer));
 		if (timer >= SpawnInterval) {
+			source.PlayOneShot(newWaveSound);
 			waves = waves + 1;
 			timer = 0;
 			for (int i = 0; i < enemies; i++) {

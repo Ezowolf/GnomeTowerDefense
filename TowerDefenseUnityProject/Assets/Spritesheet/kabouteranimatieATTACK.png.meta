@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 4e45ac1daddb04af48c67bd623a0206e
+timeCreated: 1448543442
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kabouteranimatieATTACK_0
+    21300002: kabouteranimatieATTACK_1
+    21300004: kabouteranimatieATTACK_2
+    21300006: kabouteranimatieATTACK_3
+    21300008: kabouteranimatieATTACK_4
+    21300010: kabouteranimatieATTACK_5
+    21300012: kabouteranimatieATTACK_6
+    21300014: kabouteranimatieATTACK_7
+    21300016: kabouteranimatieATTACK_8
+    21300018: kabouteranimatieATTACK_9
+    21300020: kabouteranimatieATTACK_10
+    21300022: kabouteranimatieATTACK_11
+    21300024: kabouteranimatieATTACK_12
+    21300026: kabouteranimatieATTACK_13
+    21300028: kabouteranimatieATTACK_14
+    21300030: kabouteranimatieATTACK_15
+    21300032: kabouteranimatieATTACK_16
+    21300034: kabouteranimatieATTACK_17
+    21300036: kabouteranimatieATTACK_18
+    21300038: kabouteranimatieATTACK_19
+    21300040: kabouteranimatieATTACK_20
+    21300042: kabouteranimatieATTACK_21
+    21300044: kabouteranimatieATTACK_22
+    21300046: kabouteranimatieATTACK_23
+    21300048: kabouteranimatieATTACK_24
+    21300050: kabouteranimatieATTACK_25
+    21300052: kabouteranimatieATTACK_26
+    21300054: kabouteranimatieATTACK_27
+    21300056: kabouteranimatieATTACK_28
+    21300058: kabouteranimatieATTACK_29
+    21300060: kabouteranimatieATTACK_30
+    21300062: kabouteranimatieATTACK_31
+    21300064: kabouteranimatieATTACK_32
+    21300066: kabouteranimatieATTACK_33
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kabouteranimatieATTACK_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1819
+        width: 142
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1818
+        width: 144
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1818
+        width: 145
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1817
+        width: 147
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_4
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1816
+        width: 149
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_5
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1816
+        width: 154
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1580
+        width: 158
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1579
+        width: 164
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_8
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1577
+        width: 168
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_9
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1574
+        width: 172
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1572
+        width: 177
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1330
+        width: 183
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_12
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1335
+        width: 192
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_13
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1340
+        width: 212
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_14
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1348
+        width: 231
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1113
+        width: 246
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_16
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1115
+        width: 249
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1116
+        width: 248
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 902
+        width: 244
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 895
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_20
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 889
+        width: 243
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 883
+        width: 241
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 648
+        width: 255
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_23
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 648
+        width: 241
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 648
+        width: 227
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_25
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 648
+        width: 227
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 414
+        width: 228
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_27
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 415
+        width: 228
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_28
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 415
+        width: 228
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_29
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 416
+        width: 229
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 181
+        width: 223
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 181
+        width: 210
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_32
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 181
+        width: 191
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieATTACK_33
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 181
+        width: 166
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

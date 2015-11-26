@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: 7895a4dd9dd324feab83fb7a02f04b8f
+timeCreated: 1448543513
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kabouteranimatieIDLE_0
+    21300002: kabouteranimatieIDLE_1
+    21300004: kabouteranimatieIDLE_2
+    21300006: kabouteranimatieIDLE_3
+    21300008: kabouteranimatieIDLE_4
+    21300010: kabouteranimatieIDLE_5
+    21300012: kabouteranimatieIDLE_6
+    21300014: kabouteranimatieIDLE_7
+    21300016: kabouteranimatieIDLE_8
+    21300018: kabouteranimatieIDLE_9
+    21300020: kabouteranimatieIDLE_10
+    21300022: kabouteranimatieIDLE_11
+    21300024: kabouteranimatieIDLE_12
+    21300026: kabouteranimatieIDLE_13
+    21300028: kabouteranimatieIDLE_14
+    21300030: kabouteranimatieIDLE_15
+    21300032: kabouteranimatieIDLE_16
+    21300034: kabouteranimatieIDLE_17
+    21300036: kabouteranimatieIDLE_18
+    21300038: kabouteranimatieIDLE_19
+    21300040: kabouteranimatieIDLE_20
+    21300042: kabouteranimatieIDLE_21
+    21300044: kabouteranimatieIDLE_22
+    21300046: kabouteranimatieIDLE_23
+    21300048: kabouteranimatieIDLE_24
+    21300050: kabouteranimatieIDLE_25
+    21300052: kabouteranimatieIDLE_26
+    21300054: kabouteranimatieIDLE_27
+    21300056: kabouteranimatieIDLE_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kabouteranimatieIDLE_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1819
+        width: 145
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1820
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1820
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_3
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1820
+        width: 140
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_4
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1820
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_5
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1820
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1587
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1587
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1587
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_9
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1587
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_10
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1587
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_11
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1587
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1355
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1355
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_14
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1355
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_15
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1355
+        width: 140
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_16
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1355
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_17
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1355
+        width: 140
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1123
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_19
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1123
+        width: 140
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1123
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_21
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1123
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_22
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1123
+        width: 140
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_23
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1123
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 891
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 891
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_26
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 891
+        width: 141
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_27
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 891
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kabouteranimatieIDLE_28
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 891
+        width: 142
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

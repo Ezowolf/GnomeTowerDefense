@@ -9,8 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 430058}
   - 212: {fileID: 21249290}
-  - 61: {fileID: 6138308}
   - 114: {fileID: 11494006}
+  - 111: {fileID: 11154094}
+  - 95: {fileID: 9526724}
   m_Layer: 0
   m_Name: GroundTrooperTester
   m_TagString: myTrooper
@@ -25,24 +26,42 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.4400005, y: 13.2799997, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 41.4462318, y: 22.8168583, z: 0}
+  m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!61 &6138308
-BoxCollider2D:
+--- !u!95 &9526724
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 171130}
   m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: .00320053101, y: .00640296936}
-  serializedVersion: 2
-  m_Size: {x: .513851702, y: .734757543}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: df15f5a0c46194736872f60896339f7e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!111 &11154094
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171130}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 894b7aa8d58c64609a863863dffdda4f, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &11494006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -56,6 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myHealth: 5
   myPower: 5
+  whoAmIFighting: {fileID: 0}
 --- !u!212 &21249290
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -80,7 +100,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300030, guid: 4488e9bc7af5b804494d859561711a1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e45ac1daddb04af48c67bd623a0206e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
@@ -92,6 +112,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: myPower
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
