@@ -19,7 +19,7 @@ public class TowerPlacer : MonoBehaviour {
 			{
 				GameObject.Find ("GoldCounter").GetComponent<GoldCounter> ().Gold -= 100;
 				theTower = (GameObject)
-           		Instantiate (towerMPrefab, this.transform.position, Quaternion.identity);
+           		Instantiate (towerMPrefab, new Vector3(this.transform.position.x,this.transform.position.y+1,this.transform.position.z), Quaternion.identity);
 			}
         }
         else

@@ -12,6 +12,7 @@ public class TowerAnimationScript : MonoBehaviour {
 	
 	public void IdleAnimation()
     {
+		if(animator!=null)
         animator.SetBool("doIHaveTarget", false);
     }
 
