@@ -21,10 +21,14 @@ public class TowerStats : MonoBehaviour {
 	
 	private int layerMask;
 
-	void Start()
+    private AudioSource source;
+    public AudioClip shootingSound;
+
+    void Start()
 	{
 		layerMask = LayerMask.GetMask("Enemy");
-	}
+        source = GetComponent<AudioSource>();
+    }
 
     void OnEnable()
     {
@@ -46,16 +50,30 @@ public class TowerStats : MonoBehaviour {
     void Update()
     {
 		Collider2D myRadius = Physics2D.OverlapCircle(transform.position,currentLevel.myRange, layerMask);
-
+        TowerAnimationScript AnimatedGnome = GetComponentInChildren<TowerAnimationScript>();
 		if(myRadius!=null)
 		{
+            if (AnimatedGnome.transform.position.x > myRadius.transform.position.x && AnimatedGnome.amIFacingRight == true)
+            {
+                AnimatedGnome.Flip();
+            }
+            if (AnimatedGnome.transform.position.x < myRadius.transform.position.x && AnimatedGnome.amIFacingRight == false)
+            {
+                AnimatedGnome.Flip();
+            }
+            AnimatedGnome.ShootingAnimation();
         timer += Time.deltaTime;
 		}
+        else
+        {
+        AnimatedGnome.IdleAnimation();
+        }
 
 		if (timer >= currentLevel.myFiringInterval)
 		{
 			if(myRadius!=null)
 			{
+                source.PlayOneShot(shootingSound);
 			ShootTheEnemy(myRadius.transform.position);
 			}
 			timer = 0;
@@ -65,6 +83,8 @@ public class TowerStats : MonoBehaviour {
 		{
 			Destroy(this.gameObject);
 		}
+
+       
 	}
 	
 	public MyLevelStats CurrentLevel
