@@ -18,6 +18,7 @@ public class TowerAnimationScript : MonoBehaviour {
 
     public void ShootingAnimation()
     {
+		if(animator!=null)
         animator.SetBool("doIHaveTarget", true);
     }
 

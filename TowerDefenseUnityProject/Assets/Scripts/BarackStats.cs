@@ -3,6 +3,7 @@ using System.Collections;
 
 public class BarackStats : MonoBehaviour {
 	public GameObject myTroop;
+	private Animator animator;
 	private Vector3 spawnPos1;
 	private Vector3 spawnPos2;
 	public int myLevel = 1;
@@ -12,6 +13,7 @@ public class BarackStats : MonoBehaviour {
 		spawnPos1 = new Vector3(this.transform.position.x, this.transform.position.y-1,this.transform.position.z);
 		spawnPos2 = new Vector3(this.transform.position.x-1, this.transform.position.y-1,this.transform.position.z);
 		SpawnTroops();
+		animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -40,6 +42,7 @@ public class BarackStats : MonoBehaviour {
 
 		if(myLevel==1&&GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold >= 200)
 		{
+			animator.SetBool("imUpgrading", true);
 			GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold = GameObject.Find ("GoldCounter").GetComponent<GoldCounter>().Gold - 200;
 			myLevel=2;
 			foreach (Transform child in transform) {
