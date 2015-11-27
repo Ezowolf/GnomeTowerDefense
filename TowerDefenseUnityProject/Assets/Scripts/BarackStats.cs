@@ -60,7 +60,8 @@ public class BarackStats : MonoBehaviour {
 
 	IEnumerator SpawnTroopsTimer()
 	{
-		yield return new WaitForSeconds(10-myLevel);
+		yield return new WaitForSeconds(5-myLevel);
 		SpawnTroops();
 	}
+
 }
