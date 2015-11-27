@@ -24,6 +24,13 @@ public class TowerStats : MonoBehaviour {
     private AudioSource source;
     public AudioClip shootingSound;
 
+	public GameObject canvasTower;
+	
+	void Awake () {
+		canvasTower = this.transform.Find ("Canvas").gameObject;
+		
+	}
+
     void Start()
 	{
 		layerMask = LayerMask.GetMask("Enemy");
@@ -142,4 +149,16 @@ public class TowerStats : MonoBehaviour {
 			}
         }
     }
+
+	public void ShowTowerUI () 
+	{
+		Debug.Log ("OpenUI");
+		if (canvasTower.activeInHierarchy == true) {
+			canvasTower.SetActive (false);
+			Debug.Log ("false");
+		} else {
+			canvasTower.SetActive(true);
+			Debug.Log ("true");
+		}
+	}
 }
