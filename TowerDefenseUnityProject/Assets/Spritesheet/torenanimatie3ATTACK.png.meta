@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: f42e31281b4bd3f45b4394b4b94033b1
+timeCreated: 1448652202
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: torenanimatie3ATTACK_0
+    21300002: torenanimatie3ATTACK_1
+    21300004: torenanimatie3ATTACK_2
+    21300006: torenanimatie3ATTACK_3
+    21300008: torenanimatie3ATTACK_4
+    21300010: torenanimatie3ATTACK_5
+    21300012: torenanimatie3ATTACK_6
+    21300014: torenanimatie3ATTACK_7
+    21300016: torenanimatie3ATTACK_8
+    21300018: torenanimatie3ATTACK_9
+    21300020: torenanimatie3ATTACK_10
+    21300022: torenanimatie3ATTACK_11
+    21300024: torenanimatie3ATTACK_12
+    21300026: torenanimatie3ATTACK_13
+    21300028: torenanimatie3ATTACK_14
+    21300030: torenanimatie3ATTACK_15
+    21300032: torenanimatie3ATTACK_16
+    21300034: torenanimatie3ATTACK_17
+    21300036: torenanimatie3ATTACK_18
+    21300038: torenanimatie3ATTACK_19
+    21300040: torenanimatie3ATTACK_20
+    21300042: torenanimatie3ATTACK_21
+    21300044: torenanimatie3ATTACK_22
+    21300046: torenanimatie3ATTACK_23
+    21300048: torenanimatie3ATTACK_24
+    21300050: torenanimatie3ATTACK_25
+    21300052: torenanimatie3ATTACK_26
+    21300054: torenanimatie3ATTACK_27
+    21300056: torenanimatie3ATTACK_28
+    21300058: torenanimatie3ATTACK_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: torenanimatie3ATTACK_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1812
+        width: 183
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1813
+        width: 183
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1815
+        width: 183
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1816
+        width: 182
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1816
+        width: 181
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1577
+        width: 180
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1579
+        width: 180
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1580
+        width: 179
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_8
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1582
+        width: 179
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_9
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1584
+        width: 178
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1351
+        width: 178
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1351
+        width: 177
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_12
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1353
+        width: 177
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_13
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1353
+        width: 177
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_14
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1354
+        width: 177
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1128
+        width: 178
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1129
+        width: 176
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_17
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1130
+        width: 176
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_18
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1131
+        width: 176
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_19
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1132
+        width: 175
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 909
+        width: 179
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 910
+        width: 177
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_22
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 911
+        width: 179
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 911
+        width: 179
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_24
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 911
+        width: 179
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 692
+        width: 181
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_26
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 692
+        width: 181
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_27
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 692
+        width: 179
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_28
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 692
+        width: 179
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3ATTACK_29
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 692
+        width: 179
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: c1f1c73b0819b4540a85f06cfc1ba0a8
+timeCreated: 1448652168
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: torenanimatie3IDLE_0
+    21300002: torenanimatie3IDLE_1
+    21300004: torenanimatie3IDLE_2
+    21300006: torenanimatie3IDLE_3
+    21300008: torenanimatie3IDLE_4
+    21300010: torenanimatie3IDLE_5
+    21300012: torenanimatie3IDLE_6
+    21300014: torenanimatie3IDLE_7
+    21300016: torenanimatie3IDLE_8
+    21300018: torenanimatie3IDLE_9
+    21300020: torenanimatie3IDLE_10
+    21300022: torenanimatie3IDLE_11
+    21300024: torenanimatie3IDLE_12
+    21300026: torenanimatie3IDLE_13
+    21300028: torenanimatie3IDLE_14
+    21300030: torenanimatie3IDLE_15
+    21300032: torenanimatie3IDLE_16
+    21300034: torenanimatie3IDLE_17
+    21300036: torenanimatie3IDLE_18
+    21300038: torenanimatie3IDLE_19
+    21300040: torenanimatie3IDLE_20
+    21300042: torenanimatie3IDLE_21
+    21300044: torenanimatie3IDLE_22
+    21300046: torenanimatie3IDLE_23
+    21300048: torenanimatie3IDLE_24
+    21300050: torenanimatie3IDLE_25
+    21300052: torenanimatie3IDLE_26
+    21300054: torenanimatie3IDLE_27
+    21300056: torenanimatie3IDLE_28
+    21300058: torenanimatie3IDLE_29
+    21300060: torenanimatie3IDLE_30
+    21300062: torenanimatie3IDLE_31
+    21300064: torenanimatie3IDLE_32
+    21300066: torenanimatie3IDLE_33
+    21300068: torenanimatie3IDLE_34
+    21300070: torenanimatie3IDLE_35
+    21300072: torenanimatie3IDLE_36
+    21300074: torenanimatie3IDLE_37
+    21300076: torenanimatie3IDLE_38
+    21300078: torenanimatie3IDLE_39
+    21300080: torenanimatie3IDLE_40
+    21300082: torenanimatie3IDLE_41
+    21300084: torenanimatie3IDLE_42
+    21300086: torenanimatie3IDLE_43
+    21300088: torenanimatie3IDLE_44
+    21300090: torenanimatie3IDLE_45
+    21300092: torenanimatie3IDLE_46
+    21300094: torenanimatie3IDLE_47
+    21300096: torenanimatie3IDLE_48
+    21300098: torenanimatie3IDLE_49
+    21300100: torenanimatie3IDLE_50
+    21300102: torenanimatie3IDLE_51
+    21300104: torenanimatie3IDLE_52
+    21300106: torenanimatie3IDLE_53
+    21300108: torenanimatie3IDLE_54
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: torenanimatie3IDLE_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1808
+        width: 190
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1808
+        width: 190
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1809
+        width: 191
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1809
+        width: 192
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_4
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1808
+        width: 193
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_5
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1809
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_6
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1809
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_7
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1809
+        width: 193
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_8
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 1810
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_9
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1810
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1567
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_11
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1567
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1567
+        width: 193
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_13
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1567
+        width: 192
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_14
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1567
+        width: 195
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_15
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 1567
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_16
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1567
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_17
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1567
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_18
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1567
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_19
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1568
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1324
+        width: 194
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1326
+        width: 194
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_22
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1326
+        width: 194
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_23
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1327
+        width: 194
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_24
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1326
+        width: 196
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_25
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1326
+        width: 195
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_26
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1327
+        width: 195
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_27
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1327
+        width: 195
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_28
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1327
+        width: 195
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_29
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1327
+        width: 195
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1087
+        width: 194
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1087
+        width: 194
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_32
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1087
+        width: 194
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_33
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1087
+        width: 194
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_34
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1087
+        width: 193
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_35
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1087
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_36
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1086
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_37
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1087
+        width: 193
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_38
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1087
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_39
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 1087
+        width: 193
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 847
+        width: 193
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 847
+        width: 193
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_42
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 846
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_43
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 847
+        width: 193
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_44
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 845
+        width: 193
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_45
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 845
+        width: 192
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_46
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 845
+        width: 192
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_47
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 845
+        width: 192
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_48
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 845
+        width: 192
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_49
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 845
+        width: 192
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_50
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 604
+        width: 191
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_51
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 604
+        width: 192
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 603
+        width: 191
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_53
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 603
+        width: 191
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: torenanimatie3IDLE_54
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 603
+        width: 191
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
