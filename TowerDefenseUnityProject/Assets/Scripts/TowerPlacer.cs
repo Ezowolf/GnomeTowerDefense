@@ -5,8 +5,14 @@ public class TowerPlacer : MonoBehaviour {
     [SerializeField]
     private GameObject towerMPrefab;
     private GameObject theTower;
+    private SpriteRenderer spriteRenderer;
 
-	private bool canIPlaceTower()
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    private bool canIPlaceTower()
     {
         return theTower == null;
     }
@@ -20,6 +26,7 @@ public class TowerPlacer : MonoBehaviour {
 				GameObject.Find ("GoldCounter").GetComponent<GoldCounter> ().Gold -= 100;
 				theTower = (GameObject)
            		Instantiate (towerMPrefab, new Vector3(this.transform.position.x,this.transform.position.y+1,this.transform.position.z), Quaternion.identity);
+                spriteRenderer.sprite = null;
 			}
         }
         else
