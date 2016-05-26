@@ -152,13 +152,10 @@ public class TowerStats : MonoBehaviour {
 
 	public void ShowTowerUI () 
 	{
-		Debug.Log ("OpenUI");
 		if (canvasTower.activeInHierarchy == true) {
 			canvasTower.SetActive (false);
-			Debug.Log ("false");
 		} else {
 			canvasTower.SetActive(true);
-			Debug.Log ("true");
 		}
 	}
 }
